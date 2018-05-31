@@ -1,2 +1,2 @@
 # little-red
-[demo](https://mekader.github.io/little-red/edm1.html)
+[wison edm](https://mekader.github.io/little-red/edm1.html)
