@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Shaping Futures</title>
+<meta name="fengxu" content="Wison EDM">
+<meta name="viewport" content="width=device-width, initial-scale=1.0 ,user-scalable=no,minimum-scale=1.0, maximum-scale=1.0;" />
+<base target="_blank">
+<style type= "text/css">	  
+* {
+    box-sizing: border-box;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+	float:left;
+    padding-top: 1em;
+    padding-bottom: 1em;
+	margin:0em;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+body
+{background-color:white;
+   overflow-x:hidden}
+	
+div.a
+{
+	display:block;
+    width: 70%;
+	height:auto;
+    border: 0em solid green;
+	background-color:	white;
+    padding: 0em;
+    margin: 0em auto;
+	overflow:hidden;
+	font-family:Calibri;
+}
+
+div.d1 {
+	height:auto;
+    border: 0em solid green;
+	padding-left:0em;
+	padding-right:2em;
+    margin: 0em ;
+	}
+div.d2 {
+	height:auto;
+    border: 0em solid green;
+	padding-left:2em;
+	padding-right:0em;
+    margin: 0em ;
+	}
+div.d3 {
+	height:auto;
+    border: 0em solid green;
+	padding:0em;
+    margin: 0em ;
+	}	
+div.e {
+    height:auto;
+    border: 0em solid green;
+    padding: 0em;
+    margin: 0em auto;
+}
+
+div.k 
+{
+    width: 100%;
+	height:auto;
+    border: 0em solid green;
+    padding: 0em;
+    margin: 0em auto;
+	text-align:center;
+}	
+	
+div.l 
+{
+     width: 15%;
+	 margin: 0 auto; 
+	 text-align:center;
+}	
+	
+img.pic1 
+{
+    display: block;
+    margin: 0 auto;
+	padding-bottom:1em;	
+	width: 100%;
+	height:auto	;
+	}
+	
+img.pic2 
+{
+    display: block;
+	float:left;
+	padding-left: 0em;
+	padding-top:0em;
+	padding-bottom:0.5em;
+}
+	
+img.pic3
+{
+    display: inline-block;
+	width:20%;
+	height:atuo;
+}
+img.pic31
+{
+    display: inline-block;
+	width:10%;
+	height:atuo;
+	float:right;
+	padding-right:0em;
+}
+
+p.text0
+{	
+	margin:0;
+	padding:0;
+	text-align:center;
+	font-family:Arial Sans-serif;
+	font-size:1em;
+}	
+p.text1 
+{		
+	padding-bottom:1.5em;
+	margin:0em;
+	font-family:Arial Sans-serif;
+	font-size:1.25em;
+	text-align:justify;
+	color:#515151;
+}
+p.text11 
+{		
+	padding:0em 0em;
+	margin:0em;
+	font-family:Arial Sans-serif;
+	font-size:1.1em;
+	text-align:justify;
+	color:#515151;
+}
+p.text12 
+{		
+	padding:0.5em 0em;
+	margin:0em;
+	font-family:Arial Sans-serif;
+	font-size:1.25em;
+	font-weight:bold;
+	color:black;
+	
+}
+p.text2
+{	
+	text-align:center;
+	padding: 0em ;
+	margin:0em auto;
+	font-family:Arial Sans-serif;
+	font-size:1em;
+	color:#515151;
+}
+p.text22
+{	
+	text-align:right;
+	padding-top: 2em ;
+	padding-bottom:0em;
+	margin:0em auto;
+	font-family:Arial Sans-serif;
+	font-size:1em;
+	color:#515151;
+	clear:both;
+}
+p.text21
+{
+	padding: 0em ;
+	margin:0em;
+	font-family:Arial Sans-serif;
+	font-size:1em;
+	color:#515151;
+	line-height:1.3em;
+}		
+.text3
+{	
+	text-align:center;
+	padding: 0em ;
+	margin:0em auto;
+	font-family:Arial Sans-serif;
+	font-size:1em;
+	color:black;
+	font-style:italic;
+	font-weight:bold;
+	text-decoration:underline;
+}					
+ .button
+ {        
+	background-color: rgb(27,54,93); 
+    border: none;
+    color: white;
+    padding: 0.3em 0.3em;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 0.95em;
+    cursor: pointer;
+	margin: 0em auto;
+}
+
+a.link1{   
+	text-decoration: none;}   
+.fengexian
+{
+height:0.025em;
+margin:0em 0em;
+padding:0.025em 0em;
+}
+ 
+
+@media only screen and (max-width:500px)
+{
+div.a{width:100%;}
+p.text0{font-size:0.4em;}
+img.pic1 {padding-bottom:0.4em;}
+p.text1 {padding-bottom:0.8em;font-size:0.4em;}
+p.text3 {font-size:0.4em;}
+div.d1 {padding-right:0.8em;}
+div.d2 {padding-left:0.8em;}
+img.pic1 {padding-bottom:0.3em;}
+p.text11 {padding:0.25em 0em;font-size:0.3em;}
+p.text12 {padding:0.25em 0em;font-size:0.3em;}
+.button{font-size:0.25em;padding:0.1em 0.1em;}
+[class*="col-"] {padding-top: 0.3em;padding-bottom:0.3em;}
+div.d {padding-bottom:0.4em; padding-top: 0.2em}	
+.fengexian{height:0.0000em;padding:0em 0em;}	
+img.pic2 {padding-top:0em;padding-bottom:0.25em;}	
+img.pic31 {width:15%;}
+p.text22{font-size:0.3em;padding-top:1.2em;}
+p.text21{line-height:1.2em;font-size:0.3em;}	
+
+
+}
+	
+</style>
+</head>
+<body >
+<a href="https://mekader.github.io/little-red/edm_0710.html"><p class="text0">View this email in your browser</p></a>
+<div class="a">	
+	<img class="pic1" src="https://raw.githubusercontent.com/mekader/little-red/master/1.jpg">	 
+	<p class="text1">World's largest modularized ethylene cracking furnace has been successfully 
+		delivered from our fabrication yard in Zhoushan, China. The furnace is designed to produce 
+		200,000 tons of ethylene per year, weighing 3,689.6 tons with 53.31 meters in height. 
+		World's largest modularized ethylene cracking furnace has been successfully 
+		delivered from our fabrication yard in Zhoushan, China. The furnace is designed to produce 
+		200,000 tons of ethylene per year, weighing 3,689.6 tons with 53.31 meters in height.
+	<span class="text3">Read More</span></p>
+	<div class="e col-12">
+		<div class="d1 col-6">
+		<img class="pic2 col-12" src="https://image-store.slidesharecdn.com/620a3069-0221-444a-8b01-1abf45499d7b-original.jpeg">	
+			<p class="text12">Conference: 4th International LNG Congress</p>
+			<p class="text11">How to make regional LNG distribution practical and affordable? We shared our solutions with audience
+			at the two-day conference in Berlin. Maarten Spilker also introduced our newly developed 300MW FSRP solution
+			(integrated LNG storage, regasification and power barge).  
+			</p>
+		</div>
+		<div class="d2 col-6">
+		<img class="pic2 col-12" src="https://image-store.slidesharecdn.com/ce0f0c6d-bc75-4a6e-aa0b-c3f25b12a3c8-original.jpeg">		
+			<p class="text12">Conference: CWC Beijing LNG Conference</p>
+			<p class="text11">First time at the CWC China LNG&Gas Summit, rewarding experience hearing from industry leaders and 
+			policy makers who shared insights into the country's huge potential market. Let's work together for a greater role 
+			of LNG&gas in China's future energy mix! 
+			</p>
+		</div>
+	</div>	
+	<div class="e col-12">
+		<div class="d1 col-6">
+		<img class="pic2 col-12" src="https://github.com/mekader/little-red/blob/master/video1.JPG?raw=true.jpg">	
+			<p class="text12">Video: Wison LNG Solution</p>
+			<p class="text11">Please check out this video illustrating regional multi-point 
+			LNG distribution, receiving and power generation utilizing our value chain 
+			solutions – LNG Distributor, FSU, FSRU, and FSRP.  
+			</p>
+			<a class="link1" href="https://youtu.be/uD8ZnmNjJxk"><button class="button">Watch This Video</button></a>
+		</div>
+		<div class="d2 col-6">
+		<img class="pic2 col-12" src="https://github.com/mekader/little-red/blob/master/video3.JPG?raw=true.jpg">		
+			<p class="text12">Video: Module Fabrication</p>
+			<p class="text11">Please check out the full replay of load-out of the 53m tall ethylene cracking 
+			furnace module fabricated at our Zhoushan Yard in China earlier on. And there will be more modules to deliver... 
+			</p>
+			<a class="link1" href="https://youtu.be/sDeoQ743HOA"><button class="button">Watch This Video</button></a>
+		</div>
+	</div>	
+	<hr width="100%"  class="fengexian"  color="#E0E0E0"/>
+	<div class="d1 col-9">
+		<p class="text21">Wison Offshore & Marine Limited</p>
+		<p class="text21">Emai: offshore@wison.com</p>
+		<p class="text21">699 Zhongke Road, Zhangjiang, Pudong, Shanghai, 201210, P.R. China</p>
+	</div>
+	<div class="d3 col-3">		
+		<a  href="https://twitter.com/WisonOffshore"><img  class="pic31"  src="https://raw.githubusercontent.com/mekader/little-red/master/twitterlogo.gif"></a>
+		<a  href="https://www.youtube.com/channel/UCHpzGg7sFyivBQwVK96coYg/videos?view_as=subscriber"><img  class="pic31" src="https://raw.githubusercontent.com/mekader/little-red/master/youtubelogo.gif"></a>	
+		<a href="https://www.linkedin.com/company/wison-offshore-&-marine/"><img  class="pic31"  src="https://raw.githubusercontent.com/mekader/little-red/master/linkedinlogo.gif"></a>				
+		<p class="text22"><a href="mailto:wisonoff-comm@wison.com?Subject=Unsubscribe" style="text-decoration:none;">Click here</a> to unsubscribe</p>	
+	</div>
+</div>
+</body>
+</html>
